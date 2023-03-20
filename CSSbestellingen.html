@@ -1,0 +1,76 @@
+
+  <title>Bestelformulier</title>
+  <style>
+    /* stijl voor de body */
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* stijl voor de formulierlabels */
+form em {
+  font-weight: bold;
+  display: inline-block;
+  width: 150px;
+}
+
+/* stijl voor de formulierinvoervelden */
+form input[type="text"],
+form textarea {
+  padding: 5px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* stijl voor de verzendknop */
+form input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* stijl voor het tekstvak met de afhandeling van de bestelling */
+textarea[name="Afhandeling bestelling"] {
+  margin-top: 20px;
+  width: 100%;
+  height: 150px;
+}
+
+/* stijl voor de tekst onder het formulier */
+form + textarea {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+  </style>
+</head>
+<body>
+  <form method="post" action="mailto:210903@ll-sgweredi.nl">
+    <em>Voor en achternaam</em>
+    <input type="text" size="20" maxlength="40" name="Voor en achternaam"><br>
+    <em>Mailadres</em>
+    <input type="text" size="20" maxlength="40" name="Mailadres"><br>
+    <em>Volledige bestelling</em><br>
+    <textarea rows="7" cols="25" name="Volledige bestelling"></textarea>
+    <em>Eventuele opmerkingen</em><br>
+    <textarea rows="7" cols="25" name="Eventuele opmerkingen"></textarea>
+    <em>Straatnaam en huisnummer</em>
+    <input type="text" size="20" maxlength="40" name="Straatnaam en huisnummer"><br>
+    <em>Stad/dorp</em>
+    <input type="text" size="20" maxlength="40" name="Stad/dorp"><br>
+    <em>Postcode</em>
+    <input type="text" size="20" maxlength="40" name="Postcode"><br>
+    <input type="submit" value="Verzenden">
+  </form>
+  <p>U krijgt uw producten zo snel mogelijk thuisbezorgd. Wij houden u op de hoogte via het mailadres dat door is ingevoerd in het bovenstaande tekstvak. Voor verdere vragen

@@ -1,0 +1,138 @@
+
+	<meta charset="UTF-8">
+	<title>Chocolade Webshop</title>
+	<style>
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			font-family: Arial, sans-serif;
+			line-height: 1.5;
+			background-color: #f7f7f7;
+			color: #333;
+		}
+		
+		
+		
+		header {
+			background-color: #c3a58e;
+			padding: 1rem;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+		}
+
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: center;
+		}
+
+		nav li {
+			margin: 0 1rem;
+		}
+
+		nav a {
+			color: #fff;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 1.2rem;
+			transition: color 0.3s ease;
+		
+		}
+
+		nav img {
+			position: absolute;
+			left: 40px;
+		
+		}
+
+		nav a:hover {
+			color: #eee;
+		}
+
+		.hero-image {
+			background-image: url('chocolate-banner.jpg');
+			background-size: cover;
+			background-position: center;
+			height: 400px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			color: #fff;
+			text-align: center;
+		}
+
+		.hero-image h1 {
+			font-size: 4rem;
+			margin-bottom: 0.5rem;
+		}
+
+		.hero-image p {
+			font-size: 1.5rem;
+			margin-bottom: 1rem;
+		}
+
+		.btn {
+			background-color: #c3a58e;
+			color: #fff;
+			padding: 1rem 2rem;
+			border: none;
+			border-radius: 5px;
+			font-size: 1.2rem;
+			text-decoration: none;
+			transition: background-color 0.3s ease;
+		}
+
+		.btn:hover {
+			background-color: #3c1d11;
+		}
+
+		main {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 2rem;
+		}
+
+		h2 {
+			font-size: 2rem;
+			margin-bottom: 1rem;
+		}
+
+		p {
+			margin-bottom: 1rem;
+		}
+
+		.product-grid {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+
+		.product-card {
+			flex-basis: calc(33.33% - 1rem);
+			margin-bottom: 2rem;
+			padding: 1rem;
+			background-color: #fff;
+			box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+			transition: box-shadow 0.3s ease;
+		}
+
+		.product-card:hover {
+			box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+		}
+
+		.product-card img {
+			max-width: 100%;
+			margin-bottom: 1rem;
+		
+
+	
+
